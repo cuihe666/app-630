@@ -1,0 +1,195 @@
+<<<<<<< HEAD
+html{
+	color: #666;
+	background: #f4f6f8;
+}
+a{
+	text-decoration: none;
+}
+.h_top{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+header{
+	width: 100%;
+	height: 2.2rem;
+	background: #fff;	
+}
+header .goBack{
+	display: block;
+	width: 1.5rem;
+	height: 2.2rem;	
+	float: left;
+	margin-left: 0.4rem;
+	background:url('../img/go_back.png') no-repeat 0.35rem center;
+	-webkit-background-size: 0.45rem 0.85rem;
+	background-size: 0.45rem 0.85rem;
+}
+header div{
+	width: 5rem;
+	color: #333;
+	line-height: 2.2rem;
+	text-align: center;
+	font-size: 0.9rem;
+	margin: 0 auto;
+}
+.warning{
+	width: 100%;
+	background: #f4f6f8;
+	color: #fbbc05;
+	font-size: 0.6rem;
+	padding: 2.8rem 1rem 0.6rem 1rem;
+	line-height: 0.9rem; 
+}
+.list_wrap{
+	width: 100%;
+	background-color: white;
+}
+.list_wrap:after{
+	content:".";        
+    display:block;        
+    height:0;        
+    clear:both;        
+    visibility:hidden;
+}
+.list_wrap ul{
+	width: 17.3rem;
+	margin: 0 auto;
+}
+.list_wrap ul:after{
+	content:".";        
+    display:block;        
+    height:0;        
+    clear:both;        
+    visibility:hidden;
+}
+.list_wrap ul li{
+	width: 100%;
+	height: 2.2rem;
+	border-bottom: 0.05rem solid #efefef;
+}
+.list_wrap li .span1{
+	width: 3.3rem;
+	display: inline-block;
+	line-height: 2.2rem;
+	font-size: 0.7rem;
+	color: #333;
+}
+.list_wrap li input{
+	padding-left: 1.7rem;
+	font-size: 0.7rem;
+	color: #999999;
+}
+.list_wrap li .span2{
+	font-size: 0.7rem;
+	padding-left: 1.7rem;
+	color: #666;
+}
+.list_wrap li a{
+	float: right;
+	width: 0.8rem;
+	display: inline-block;
+	height: 100%;
+	background:url('../img/moer_remind.png') no-repeat 0.35rem center;
+	-webkit-background-size: 0.4rem 0.7rem;
+	background-size:  0.4rem 0.7rem;	
+}
+button{
+	width: 17.3rem;
+	height: 2.3rem;
+	background: #fbbc05;
+	font-size: 0.8rem;
+	color: white;
+	display: block;
+	margin: 4rem auto!important;
+	margin-bottom: 0;
+	cursor: pointer;
+}
+.wrap{
+	position: absolute;
+	left: 0;
+	top: 20rem;
+	background: transparent;
+	width: 100%;
+	height: 3rem;
+}
+.wrap1{
+	background: white;
+	position: fixed;
+	left: 0;
+	width: 100%; 
+	z-index: 10;
+}
+.wrap1 ul{
+	width: 17.3rem;
+	margin: 0 auto;
+}
+.wrap1 li{
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 0.8rem;
+	text-align: center;
+	border-bottom: 0.1rem solid #f6f6f6;
+}
+.sex_wrap{
+	bottom: -6.2rem;
+}
+.card_wrap{
+	bottom: -10.4rem;
+}
+.last_li{
+	background: #fbbc05;
+	color: whtie
+}
+.warn{
+	width: 14rem;
+	height: 8rem;
+	background: white;
+	z-index: 5;
+	box-shadow: 0 0 0.2rem 0.2rem #f6f6f6;
+	position: fixed;
+	left: 2.4rem;
+	top: 5rem;
+	display: none;
+}
+.warn h4{
+	background: #f6f6f6;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	font-size: 0.8rem;
+}
+.warn h4 span{
+	float: right;
+	margin-right: 0.5rem;
+}
+.warn p{
+	font-size: 0.7rem;
+	line-height: 1rem;
+	padding: 1.5rem 0rem;
+	width: 100%;
+	color: red;
+	text-align: center;
+}
+.mask{
+	width: 100%;
+	height: 50rem;
+	background: rgba(0,0,0,0.8);
+	position: fixed;
+	left: 0;
+	top: 40rem;
+	z-index: 5;
+}
+=======
+html{color:#666;background:#f4f6f8}a{text-decoration:none}.h_top{position:fixed;width:100%;top:0;left:0;z-index:5;background-color:#fff}.clear:after{content:".";display:block;height:0;clear:both;visibility:hidden}header{width:100%;height:2.2rem;background:#fff}header .goBack{display:block;width:1.5rem;height:2.2rem;float:left;margin-left:0.4rem;background:url('../img/go_back.png') no-repeat 0.35rem center;background-size:0.5rem 1rem}header div{width:5rem;color:#333;line-height:2.2rem;text-align:center;font-size:0.9rem;margin:0 auto}.warning{width:100%;background:#f4f6f8;color:#fbbc05;font-size:0.6rem;padding:0.6rem 1rem 0.6rem 1rem;line-height:0.9rem;margin-top:2.2rem;background-color:#fff}.list_wrap{width:100%;background-color:white}.list_wrap:after{content:".";display:block;height:0;clear:both;visibility:hidden}.list_wrap ul{width:17.3rem;margin:0 auto}.list_wrap ul:after{content:".";display:block;height:0;clear:both;visibility:hidden}.list_wrap ul li{width:100%;height:2.2rem;border-bottom:0.05rem solid #efefef}.list_wrap li .span1{width:3.3rem;display:inline-block;line-height:2.2rem;font-size:0.7rem;color:#333}.list_wrap li input{padding-left:1.7rem;font-size:0.7rem;color:#999999}.list_wrap li .span2{font-size:0.7rem;padding-left:1.7rem;color:#666}.list_wrap li a{float:right;width:0.8rem;display:inline-block;height:100%;background:url('../img/moer_remind.png') no-repeat 0.35rem center;-webkit-background-size:0.4rem 0.7rem;background-size:0.4rem 0.7rem}button{width:17.3rem;height:2.3rem;background:#fbbc05;font-size:0.8rem;color:white;display:block;margin:4rem auto!important}.wrap{position:absolute;left:0;top:20rem;background:transparent;width:100%;height:3rem}.wrap1{background:white;position:fixed;left:0;width:100%;z-index:10}.wrap1 ul{margin:0 auto}.wrap1 li{height:2rem;line-height:2rem;font-size:0.8rem;text-align:center;border-bottom:0.1rem solid #f6f6f6}.sex_wrap{bottom:-6.2rem}.card_wrap{bottom:-10.4rem}.last_li{background:#fbbc05;color:white}.masker{position:fixed;width:100%;top:0;bottom:0;background-color:#000;opacity:0.7;display:none}.masker.show_out{display:block}
+>>>>>>> bccbc961c190f864e53c0603e124035401db8cfd

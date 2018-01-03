@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta content="telephone=no" name="format-detection"/>
+	<title>选择支付</title>
+	<link rel="stylesheet" href="../css/tg_mobile_reset.css">
+	<link rel="stylesheet" href="../css/order_detail.css">
+    <script src="../js/lib/zepto.min.js"></script>
+	<script src="../js/method/base.js?v=20171024?v=20171024"></script>
+	
+	<script src="../js/custorm/guideOrder_detail.js"></script>
+</head>
+<body>
+
+	<div class="h_top">
+		<div class="header color333 border_b2">
+			<div class="goback"></div>
+			<div class="head_title" id="head_title">支付</div>
+		</div>
+	</div>
+	
+	<div class="order_detail_wp fz14 ">
+		<div class="pay_info time_remain "><!-- time_over --><!-- time_remain --><!-- hide_in -->
+			<!-- 支付超时，请重新下单 -->
+			<!-- 支付剩余时间<span id="pay_min"></span>分<span id="pay_sec"></span>秒 -->
+		</div>
+		<div class="h43 order_info pl15 color333 ">订单信息</div>
+	</div>
+	<div class="detail_info_wp fz14">
+		<div class="evy_item travelName_wp">
+			<span class="item_name">商品名称</span>
+			<span class="goods_name " id="goods_travelName">商品名称的具体值</span>
+		</div>
+		<div class="evy_item activityDate_wp">
+			<span class="item_name">体验日期</span>
+			<span class="goods_name" id="activityDate"><!-- 2017-06-05 --></span>
+		</div>
+		<!-- <div class="evy_item sign_up_wp">
+			<span class="item_name">报名人数</span>
+			<span class="goods_name">
+				<span class="old_count_wp"><span id="old_cnt"></span>人</span>
+			</span>
+		</div> -->
+		<div class="evy_item contact_wp">
+			<span class="item_name">联系人</span>
+			<span class="goods_name" id="contact_name"><!-- 经典名字：小明 --></span>
+		</div>
+		<div class="evy_item tel_wp">
+			<span class="item_name">联系电话</span>
+			<span class="goods_name" id="contact_tel"><!-- 1515555555 --></span>
+		</div>
+		<!-- <div class="travel_infos_wp clearfix">
+			<span class="item_name fl_itm">出行人信息</span>
+			<ul class="trvl_persons fl_itm">
+				<li class="li_psn_wp"> -->
+				<!-- 	<div class="evy_people clearfix">
+						<span class="pl_name">小红</span>
+						<span class="pl_id">110000000000000</span>
+					</div> -->
+		<!-- 		</li>
+				
+				<li class="unfold_cnt  is_true">展开</li>
+			</ul>
+		</div> -->
+		<div class="bg_div"></div>
+		<div class="h43 color333 order_mngx">订单明细</div>
+		<div id="order_mx_wrap">
+			<ul>
+				<li class="mx_item">
+					<div class="mx_name">天数</div>
+					<div class="mx_val">
+						<span>￥</span><span id="old_evy_price"><!-- 99999 --></span><span class="xmul">x</span><span id="old_dtl_cnt"><!-- 22222 --></span>
+					</div>
+				</li>
+				<li class="mx_item" id="child_info">
+					<div class="mx_name">儿童</div>
+					<div class="mx_val">
+						<span>￥</span><span id="new_evy_price"><!-- 88888 --></span><span class="xmul">x</span><span id="new_dtl_cnt"><!-- 2000000 --></span>
+					</div>
+				</li>
+				<li class="mx_item">
+					<div class="mx_name">合计</div>
+					<div class="mx_val">
+						<span>￥</span><span id="before_total"><!-- 10600001 --></span>
+					</div>
+				</li>
+				<li class="mx_item">
+					<div class="mx_name">优惠</div>
+					<div class="mx_val">
+						<span>-</span>
+						<span id="cheap_pri"><!-- 20000000 --></span>
+					</div>
+				</li>
+				<li class="mx_item">
+					<div class="mx_name">应付</div>
+					<div class="mx_val">
+						<span>￥</span><span id="require_price"><!-- 860002 --></span>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="bg_div"></div>
+		<div class="h43 color333 zc_pay_way">支付方式</div>
+		<ul id="pay_pattern_wp">
+			<li id="zc_ali_pay" data-pay='0'>
+				<div class="pic abs_pic" ><img src="../img/zc_ali.png"></div>
+				<div class="pay_way_name border_b1">支付宝支付</div>
+				<div id="ali_check_img" class="check_pic abs_pic ">
+					<img class="zc_img" src="../img/zc_ischecked.png">
+					<!-- <img class="zc_img2" src="../img/zc_nochecked.png"> -->
+				</div>
+			</li>
+			<li id="zc_wx_pay" data-pay='1'>
+				<div class="pic abs_pic" ><img src="../img/zc_wx.png"></div>
+				<div class="pay_way_name">微信支付</div>
+				<div id="wx_check_img" class="check_pic abs_pic ">
+					<img class="zc_img" src="../img/zc_nochecked.png">
+					<!-- <img class="zc_img2" src="../img/zc_ischecked.png"> -->
+				</div>
+			</li>
+		</ul>
+		<div class="bg_div"></div>
+	</div>
+
+	<div class="footer">
+		<div class="price"><span>￥</span><span id="zc_price"><!-- 1888812 --></span></div>
+		<div id="submit_order">立即支付</div><!-- 添加.time_out为支付超时 -->
+	</div>
+	
+
+	
+
+
+	
+	
+	<script src="../js/lib/rem.js"></script>
+	<!-- <script src="../js/method/solveIosHead.js"></script> -->
+	
+</body>
+</html>

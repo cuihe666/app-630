@@ -1,0 +1,54 @@
+/*note_list 游记列表*/
+html {
+	font-size: 20px;
+	color: #333;
+}
+body{position: relative;}
+.fl {float: left;}
+.fr {float: right;}
+.po_re {position: relative;}
+.po_ab {position: absolute;}
+#zwrap {width: 100%;position: relative;max-width: 375px;margin: 0 auto 60px;overflow: hidden;}
+.header {height: 44px;position: fixed;left: 0;top: 0;width: 100%;z-index: 2;}
+.goback {display: inline-block;width: 9px;height: 100%;background: url(../img/go_back_white.png) no-repeat center;background-size: 9px 17px;left: 15px;z-index: 2;}
+.bgwhite {background: #FFFFFF;border-bottom: 1px solid #EFEFEF;}
+.bgwhite .goback{background: url(../img/go_back.png) no-repeat center;background-size: 9px 17px;left: 15px;}
+.h_user {height: 100%;text-align: center;display:block;margin: 0 auto;padding-top: 6px;display: none;}
+.h_user .h_user_pic {width: 43px;height: 43px;border-radius: 50%;position: relative;display: inline-block;text-align: center;}
+.h_user  img{border-radius: 50%;width: 100%;width: 30px;height: 30px;vertical-align: middle;}
+.h_head_nick{display: inline-block;text-align: center;vertical-align: middle;font-size: 15px;color: #333333;}
+.h_follow {color: #FFFFFF;font-size: 12px;text-align: center;width: 56px;height: 20px;border-radius: 20px;background-color: #4acb8e;text-align: center;line-height: 20px;margin-top: -33px;display: none;right: 15px;}
+.h_follow span{font-size: 15px;color: #FFFFFF;}
+/*内容区*/
+.imp_wrap {}
+.imp_wrap .banner {width: 100%;height: 232px;overflow: hidden;}
+.imp_wrap .banner img {width: 100%;}
+/*.swiper-container {width: 100%;}
+.swiper-wrapper>div {float: left;}*/
+
+/*用户头像*/
+.user_box {width: 345px;height: 43px;margin: 15px auto;position: relative;}
+.user_box .user_pic {width: 43px;height: 43px;border-radius: 50%;position: relative;}
+.user_box .user_pic>img {border-radius: 50%;}
+.user_pic .head_icon {width:100%;position: absolute;}
+.user_pic .head_sex {position: absolute;right: 0;bottom: 5px;background: #fbbc05 url(../img/male.png) no-repeat center center;background-size:6px 10px;width: 15px;height: 15px;border-radius: 50%;}
+.user_box .head_nick {font-size: 15px;color: #333333;line-height: 43px;margin-left: 15px;}
+.user_box .follow {width: 56px;height: 20px;border-radius: 20px;background-color: #4acb8e;font-size: 12px;text-align: center;line-height: 20px;color: #FFFFFF;margin-top: 12px;}
+.user_box .follow>span {font-size: 15px;}
+.imp_wrap .title{font-size: 16px;color: #333333;width: 345px;margin: 15px auto;line-height: 24px;}
+.container_box {width: 345px;margin: 0 auto;}
+.scan_con {font-size: 14px;}
+.scan_con img {max-width: 100%;}
+.release_time {text-align: right;font-size: 13px;color: #999999;margin-top: 10px;}
+.gotop {width: 30px;height: 30px;background: url(../img/gotop.png) no-repeat center center;border-radius: 50%;background-size: 100% 100%;position: fixed;right: 15px;bottom: 80px;display: none;}
+.end {text-align: center;width: 150px;margin: 0 auto;}
+.end>i {display: inline-block;width: 50px;height: 1px;background: #F5F5F5;margin-top: 10px;}
+.end>span {font-size: 14px;color: #F5F5F5;margin: 0 10px;display: inline-block;}
+.footer {height: 48px;border-top: 1px solid #F5F5F5;position: fixed;bottom: 0;left: 0;right: 0;background: #FFFFFF;}
+.footer>div{width: 33.3%;box-sizing: border-box;line-height: 48px;text-align: center;color: #333333;font-size: 15px;}
+.footer>div+div{border-left: 1px solid #F5F5F5;}
+.thumbs_up>.icon{display: inline-block;background: url(../img/zan.png) no-repeat;width: 13px;height: 13px;background-size: 100% 100%;}
+.collection>.icon {display: inline-block;background: url(../img/collect.png) no-repeat;width: 16px;height: 14px;background-size: 100% 100%;}
+.share>.icon{display: inline-block;background: url(../img/share.png) no-repeat;height: 14px;width: 14px;background-size: 100% 100%;}
+.footer>div>.icon {margin-right: 5px;}
+.show {display: block;}

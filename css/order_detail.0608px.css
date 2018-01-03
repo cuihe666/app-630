@@ -1,0 +1,199 @@
+html{
+	font-size: 20px;
+	color: #666;
+}
+.order_detail_wp {
+	margin-top: 44px;
+}
+.border_b2 {
+	border-bottom: 0.1rem solid #efefef;
+}
+.border_b1 {
+	border-bottom: 0.05rem solid #efefef;
+}
+.header {
+	position: fixed;
+	width: 100%;
+	height: 2.2rem;
+	line-height: 2.2rem;
+	text-align: center;
+	font-size: 0.9rem;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	background-color: #fff;
+	
+}
+.header #head_title {
+	color: transparent;
+	color: #333;
+}
+
+.goback {
+	width: 1.75rem;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	background:url('../img/go_back.png') no-repeat 0.75rem center;
+	-webkit-background-size: 0.45rem 0.85rem;
+	background-size: 0.45rem 0.85rem;
+}
+.color333 {
+	color: #333;
+}
+.fz14 {
+	font-size: 14px;
+}
+.h43 {
+	height: 43px;
+	line-height: 43px;
+	border-bottom: 1px solid #efefef;
+	font-size: 15px;
+}
+.pl15 {
+	padding-left: 15px;
+}
+.bg_div {
+	background-color: #f6f9fb;
+    height: 0.5rem;
+}
+.detail_info_wp {
+	margin-bottom: 50px;
+}
+.detail_info_wp>div {
+	padding-left: 15px;
+	padding-bottom: 10px;
+}
+.detail_info_wp .evy_item {
+	height: 26px;
+	line-height: 26px;
+	position: relative;
+}
+.detail_info_wp .item_name {
+	color:#333;
+	height: 24px;
+	line-height: 24px;
+}
+.detail_info_wp .evy_item .goods_name {
+	position: absolute;
+	left: 110px;
+}
+/**/
+.footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	background-color: #fff;
+	font-size: 0.9rem;
+}
+.footer>div {
+	float: left;
+
+}
+.price {
+	width: 42%;
+	color: #ff4c4c;
+	text-align: center;
+}
+#submit_order {
+	background-color: #fbbc05;
+	color: #fff;
+	text-align: center;
+	width: 58%;
+}
+/**/
+.travel_infos_wp .fl_itm {
+	float: left;
+}
+.trvl_persons  {
+	margin-left: 25px;
+	overflow:hidden;
+}
+.unfold_cnt  {
+	text-align: center;
+	color: #fbbc05;
+	padding: 5px 0;
+	margin-left: -40px;
+	display: none;
+}
+.unfold_cnt.show_out {
+	display: block;
+}
+.trvl_persons .evy_people span {
+	float: left;
+	margin-right: 20px;
+	height: 24px;
+	line-height: 24px;
+}
+/**/
+.travelName_wp {
+	margin-top: 6px;
+}
+.sign_up_wp .goods_name>span {
+	margin-right: 20px;
+}
+/**/
+#order_mx_wrap ul>li {
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+}
+#order_mx_wrap ul>li .mx_name {
+	float: left;
+}
+#order_mx_wrap ul>li .mx_val {
+	position: absolute;
+	left: 95px;
+}
+/**/
+#pay_pattern_wp>li {
+	position: relative;
+	/*text-align: center;*/
+	height: 60px;
+	line-height: 60px;
+}
+#pay_pattern_wp>li .abs_pic {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	font-size: 0;
+	border: none;
+	top: 50%;
+	margin-top: -15px;
+	overflow: hidden;
+}
+#pay_pattern_wp>li .abs_pic.check_pic {
+	width: 16px;
+	height: 16px;
+	margin-top: -8px;
+}
+.pic {
+	left: 15px;
+}
+.check_pic {
+	right: 15px;
+}
+#pay_pattern_wp>li .abs_pic img {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.pay_way_name {
+	padding-left: 60px;
+}
+/**/
+.li_psn_wp {
+	max-height: 96px;
+	overflow: hidden;
+}
+.li_psn_wp.auto_height {
+	max-height: 999999px;
+}
+#child_info {
+	display: none;
+}
+#child_info.show_out {
+	display: block;
+}

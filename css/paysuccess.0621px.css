@@ -1,0 +1,129 @@
+.h_top {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	
+	background-color: #fff;
+}
+.header {
+	position: relative;
+}
+.header_word {
+	font-size: 18px;
+	text-align: center;
+	height: 44px;
+	line-height: 44px;
+}
+.goback {
+	width: 1.75rem;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background: url(../img/go_back.png) no-repeat 0.75rem center;
+    -webkit-background-size: 0.45rem 0.85rem;
+    background-size: 0.45rem 0.85rem;
+}
+/**/
+.bg_cnt {
+	margin-top: 44px;
+	height: 140px;
+	background-color: #f9f9f9;
+	position: relative;
+}
+.tip_pic {
+	width: 52px;
+	height: 56px;
+	position: absolute;
+	left: 50%;
+	margin-left: -26px;
+	top: 25px;
+}
+.tip_pic img {
+	width: 100%;
+	height: 100%;
+}
+.tip_word {
+	position: absolute;
+	color: #16ae67;
+	font-size: 20px;
+	text-align: center;
+	bottom: 25px;
+	width: 100%;
+}
+.detail_wp {
+	margin-top: 15px;
+}
+.detail_wp > div {
+	float: left;
+}
+.detail_wp > div.cnt_wrap {
+	float: none;
+	margin-left: 131px;
+	color: #666;
+	font-size: 14px;
+	position: relative;
+	height: 75px;
+}
+.img_wp {
+	width: 100px;
+	height: 75px;
+	border: none;
+	margin-left: 15px;
+	margin-right: 16px;
+}
+.img_wp img {
+	width: 100%;
+	height: 100%;
+}
+
+.people_wp {
+	display: none;
+}
+.people_wp.show_out {
+	display: block;
+}
+.pos_wp {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.ml5 {
+	margin-left: 3px;
+}
+.ml10 {
+	margin-left: 10px;
+}
+.cnt_wrap .title {
+	padding-right: 15px;
+}
+.btn_wp {
+	margin: 25px 0;
+
+}
+
+.btn_wp >div {
+	float: left;
+	width: 50%;
+}
+.btn_fr div{
+	float: right;
+	margin-right: 25px;
+}
+.btn_fl div{
+	float: left;
+	margin-left: 25px;
+}
+.btn {
+	width: 114px;
+	height: 34px;
+	border-radius: 3px;
+	border: 1px solid #16ae67;
+	line-height: 34px;
+	text-align: center;
+	color: #16ae67;
+	font-size: 13px;
+}
+.bg_div {
+	background-color: #f6f9fb;
+    height: 0.5rem;
+}

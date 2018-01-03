@@ -1,0 +1,434 @@
+html{
+	font-size: 1rem;
+	color: #666;
+}
+
+.h_top {
+	position: fixed;
+	width: 100%;
+	/*height: 2.2rem;*/
+	/*line-height: 2.2rem;*/
+	text-align: center;
+	font-size: 0.9rem;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	background-color: #fff;
+	
+}
+.header {
+	height: 2.2rem;
+	line-height: 2.2rem;
+	position: relative;
+}
+.h_top #head_title {
+	color: transparent;
+	color: #333;
+}
+
+.goback,.child_goback {
+	width: 1.75rem;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	background:url('../img/go_back.png') no-repeat 0.75rem center;
+	-webkit-background-size: 0.45rem 0.85rem;
+	background-size: 0.45rem 0.85rem;
+}
+.color333 {
+	color: #333;
+}
+.border_b2 {
+	border-bottom: 0.1rem solid #efefef;
+}
+.pl15_wp {
+	margin-top: 2.2rem;
+	font-size: 0.7rem;
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+	margin-bottom: 4.65rem;
+}
+.h43 {
+	height: 2.15rem;
+	line-height: 2.15rem;
+	border-bottom: 0.1rem solid #efefef;
+	margin-right: -0.75rem;
+}
+.remain_stock {
+	font-size: 0.5rem;
+	margin-top: 0.3rem;
+	color: #999;
+	display: none;
+}
+.remain_stock.show_out {
+	display: block;
+}
+.rmn_sk {
+	color: #ff4c4c;
+	margin-left: 0.5rem;
+}
+.no_bb.h43 {
+	border-bottom: none;
+}
+.bg_div {
+	background-color: #f6f9fb;
+	height: 0.5rem;
+	margin-left: -0.75rem;
+	margin-right: -0.75rem;
+}
+.contact_info {
+	font-size: 0.75rem;
+}
+.cntf {
+	position: relative;
+}
+.evy_person_wp {
+	padding: 0.4rem 0;
+	margin-top: 0.1rem;
+}
+.evy_person_wp>div {
+	float: left;
+}
+.min_btn,.add_btn {
+	width: 1.1rem;
+	height: 1.1rem;
+	border: none;
+	border-radius: 50%;
+}
+.min_btn img,.add_btn img {
+	width: 100%;
+	height: 100%;
+}
+.add_person {
+	padding: 0.4rem 0;
+}
+.add_person>div {
+	float: left;
+	/*display: inline-block;*/
+}
+.ml12 {
+	margin-left: 0.6rem;
+}
+.add_word {
+	height: 1.1rem;
+	line-height: 1.1rem;
+}
+.pname_id >div {
+	height: 1.1rem;
+	line-height: 1.1rem;
+}
+.pst_r {
+	position: relative;
+}
+.right_arrow {
+	position: absolute;
+	width: 0.35rem;
+	height: 0.6rem;
+	background: url('../img/moer_remind.png') no-repeat;
+	-webkit-background-size: 0.35rem 0.6rem;
+	background-size: 0.35rem 0.6rem;
+	top: 50%;
+	margin-top: -0.3rem;
+	right: 0.75rem;
+}
+.footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	background-color: #fff;
+	font-size: 0.9rem;
+}
+.footer>div {
+	float: left;
+
+}
+.price {
+	width: 42%;
+	color: #ff4c4c;
+	text-align: center;
+}
+#submit_order {
+	background-color: #fbbc05;
+	color: #fff;
+	text-align: center;
+	width: 58%;
+}
+.agreement_wp {
+	background: #f6f9fb;
+	height: 2.15rem;
+	line-height: 2.15rem;
+	padding-left: 0.75rem;
+	font-size: 0.65rem;
+	color: #333;
+	position: fixed;
+	width: 100%;
+	bottom: 2.5rem;
+}
+.agreement_wp a {
+	color: #333;
+}
+.agreement_wp>span {
+	float: left;
+	margin-right: 0.4rem;
+}
+#tango_pact {
+	color: #1dbe72;
+}
+#agree_pic {
+	height: 100%;
+	width: 0.6rem;
+	padding: 0 0.5rem;
+	background: url('../img/agree_after.png') no-repeat center;
+	-webkit-background-size: 0.6rem 0.6rem;
+	background-size: 0.6rem 0.6rem;
+	margin-left: -0.2rem;
+}
+#agree_pic.agr_before {
+	background-image: url('../img/agree_before.png');	
+}
+
+.zc_position_r {
+	position: relative;
+}
+.add_min_wp {
+	position: absolute;
+	right: 0.75rem;
+	top: 0;
+	width: 4.7rem;
+	height: 100%;
+}
+.add_min_wp .zc_min_btn {
+	background: url('../img/list_jian_nor@3x.png') no-repeat center ;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.add_min_wp .zc_min_btn.no_use { /*鍑忓彿绂佺敤鐘舵€�*/
+	background-image: url('../img/list_jian_dis@3x.png');
+}
+.add_min_wp .zc_add_btn {
+	background: url('../img/list_jia_nor@3x.png') no-repeat center ;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.add_min_wp .zc_add_btn.no_use { /*鍔犲彿绂佺敤鐘舵€�*/
+	background-image: url('../img/list_jia_dis@3x.png');
+}
+.add_min_wp>div {
+	width: 1.1rem;
+	height: 1.1rem;
+	position: absolute;
+	top: 50%;
+	margin-top: -0.55rem;
+	z-index: 2;
+}
+.zc_add_btn {
+	right: 0;
+}
+.zc_min_btn {
+	left: 0;
+}
+.add_min_wp>div.zc_cr_count {
+	width: 100%;
+	height: 1.1rem;
+	line-height: 1.1rem;
+	text-align: center;
+	z-index: 1;
+}
+.ml28 {
+	margin-left: 1.3rem;
+}
+/*.zc_min_btn,.zc_add_btn {
+	position: absolute;
+}
+.zc_min_btn {
+	left: 0;
+}
+.zc_add_btn {
+	right: 0;
+}*/
+#contact_person {
+	margin-left: 0.8rem;
+}
+#cnt_tel {
+	margin-left: 1px;
+}
+#zc_remind_cnt {
+	padding: 0.4rem;
+	text-align: center;
+	font-size: 0.6rem;
+	position: fixed;
+	top:45%;
+	left: 50%;
+	display: none;
+	border: 1px solid #ccc;
+	background-color: #000;
+	opacity: 0.65;
+	color: #fff;
+	border-radius: 0.15rem;
+}
+#zc_remind_cnt.show_out {
+	display: block;
+}
+.detail_info_wp .evy_item {
+	height: 50px;
+	line-height: 50px;
+}
+/*优惠券*/
+.discount_wp {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #fff;
+	background-color: #ccc;
+	height: 300px;
+	font-size: 12px;
+	overflow-y: scroll;
+	display: none;
+	z-index: 6;
+	background-color: #f5f5f5;
+
+}
+.discount_wp.show_out {
+	display: block;
+}
+.use_head {
+	height: 49px;
+	border-bottom: 1px solid #efefef;
+	position: relative;
+	color: #333;
+	text-align: center;
+}
+.use_postion {
+	position: absolute;
+	height: 49px;
+	line-height: 49px;
+	top: 0;
+}
+.use_cancel {
+	left: 15px;
+	color: #999;
+}
+.use_sure {
+	right: 15px;
+	color: #333;
+}
+.use_tip {
+	font-size: 16px;
+	color: #333;
+	line-height: 49px;
+}
+.evy_privilege {
+	height: 111px;
+	width: 351px;
+	color: #fff;
+	position: relative;
+	margin: 25px auto 0;
+}
+.evy_privilege.manjian {
+	background:url('../img/img_youhuiquan_manjianquan1@3x.png') no-repeat ;
+	background-size: cover;
+
+}
+.evy_privilege.daijin {
+	background:url('../img/img_youhuiquan_daijinquan@3x.png') no-repeat ;
+	background-size: cover;
+}
+.discount_wp .evy_privilege>div {
+	position: absolute;
+}
+.coupon_name {
+	top: 10px;
+	left: 25px;
+
+}
+.cpn_name_detail {
+	top: 30px;
+	right: 20px;
+}
+.least_info {
+	bottom: 49px;
+	right: 20px;
+}
+.time_limit_wp {
+	left: 15px;
+	bottom: 9px;
+	color: #666;
+}
+.select_or_not {
+	width: 19px;
+	height: 19px;
+	bottom: 6px;
+	right: 15px;
+}
+.select_or_not img {
+	width: 100%;
+	height: 100%;
+}
+.coupon_name_value {
+	top:29px;
+	left: 20px;
+}
+.coupon_name_value .rmb_cnt {
+	font-size: 40px;
+}
+.coupon_name_value .rmb_sts {
+	font-size: 22px;
+}
+/*暂无可用优惠券*/
+.no_counp {
+	display: none;
+	text-align: center;
+	padding: 80px 0;
+}
+.no_counp.show_out {
+	display: block;
+}
+.use_intru {
+	color: #1dbe72;
+	font-size: 12px;
+	text-align: center;
+	padding: 25px 0 29px;
+}
+.masker {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+	opacity: 0.5;
+	display: none;
+	z-index: 5;
+}
+.masker.show_out {
+	display: block;
+}
+/*使用说明*/
+.yh_use_intru {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	display: none;
+	background-color: #f6f9fb;
+	overflow-y: scroll;
+}
+.yh_use_intru.show_out {
+	display: block;
+}
+.p_wp {
+	margin-top: 44px;
+	padding: 38px 36px 0;
+	color: #333;
+	font-size: 21px;
+	background-color: #fff;
+}
+.p_wp p {
+	padding: 20px 0;
+	line-height:32px;
+	border-bottom: 1px solid #f0f0f0;
+}

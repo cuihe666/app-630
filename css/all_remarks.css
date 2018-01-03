@@ -1,0 +1,267 @@
+.h_top {
+	border-bottom: 2px solid #e5e5e5;
+	z-index: 10;/*页面滑动时盖住图片*/
+}
+.star_info_wp {
+	margin-top: 2.3rem;
+	padding: 0.8rem 0;
+}
+.star_info_wp>div {
+	float: left;
+
+}
+.vertical_line {
+	width: 0;
+	height: 2.15rem;
+	border-right: 1px solid #ececec;
+	margin-right: 0.4rem;
+}
+.star_li_wp>li {
+	float: left;
+	font-size: 0.5rem;
+	line-height: 1.2rem;
+}
+
+
+.star_li_wp>li img {
+	width: 100%;
+}
+.if_recment {
+	width: 5.35rem;
+}
+.right_stars {
+	width: 12.75rem;
+}
+
+.rec_words {
+	font-size: 0.8rem;
+	color: #333;
+	text-align: center;
+ 
+}
+.rec_scores {
+	font-size: 0;
+	text-align: center;
+}
+
+.green_word {
+  font-size: 0.95rem;
+  color: rgb(29, 190, 114);
+  text-align: center;
+}
+.total_score {
+	font-size: 0.6rem;
+	color: #333;
+	margin-top: 0.175rem;
+}
+.ml12 {
+	margin-left: 0.6rem;
+}
+.background_div {
+  background-color: #f6f9fb;
+  height: 0.5rem;
+}
+/*tab—header*/
+.ul_hwp {
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+	background-color: #fff;
+}
+ul.ul_hwp>li.thead {
+	float: left;
+	width: 20%;
+	height: 2.15rem;
+	line-height: 2.15rem;
+	padding-bottom: 2.15rem;
+	font-size: 0;
+}
+.ul_hwp>.thead .inner_word {
+	font-size: 0.7rem;
+	display: inline-block;
+}
+.ul_hwp>.thead.on .inner_word {
+	border-bottom: 0.125rem solid #1CBE72;
+ 	color: #1CBE72;
+	
+
+}
+.tab_header_wp.fixed {
+	position: fixed;
+	width: 100%;
+	z-index: 15;
+}
+/*tab-content*/
+.tbody {
+	
+	display: none;
+}
+.tbody.show_out {
+	display: block;
+}
+.tbody .cnt_top {
+	position: relative;
+	height: 2.25rem;
+	line-height: 2.25rem;
+}
+.tbody .cnt_top .u_name {
+	float: left;
+	font-size: 0.75rem;
+	color: #333;
+}
+.tbody .cnt_top .cnt_star_wp {
+	float: right;
+	margin-top: -0.1rem;
+}
+.if_good {
+	/*position: absolute;*/
+	/*left: 4.0rem;*/
+	border: 1px solid #e9e9e9;
+	border-radius: 3px;
+	color: #1CBE72;
+	font-size: 0.55rem;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	/*top: 50%;*/
+	/*margin-top: -0.5rem;*/
+	width: 2.8rem;
+	text-align: center;
+	float: left;
+	margin-left: 0.65rem;
+	margin-top: 0.7rem;
+}
+
+
+.star_score {
+	color: #1dbe72;
+    font-size: 0.55rem;
+    margin-left: 0.2rem;
+    position: relative;
+    top: -1px;
+}
+.cnt_cnt {
+	margin-top: -0.25rem;
+}
+.cnt_content {
+	font-size: 0.65rem;
+	color: #999;
+  	line-height: 1rem;
+	width: 100%;
+	overflow: hidden;
+}
+.may_hidden.hide { /*需要显示展开按钮时添加.hide*/
+	overflow: hidden;
+	height: 2.0rem;
+	width: 100%;
+}
+.fold_wp {
+	font-size: 0.5rem;
+	color: #ff9800;
+	float: right;
+	margin-top: -0.25rem;
+	padding: 0.2rem 0 0.2rem 0.35rem;
+}
+.fold_outer {
+	/*margin-bottom: 0.76rem;*/
+	margin-bottom: 0.3rem;
+	margin-top: 0.25rem;
+	display: none;
+}
+.fold_outer.show_out {
+	display: block;
+}
+.fold_icon {
+	display: inline-block;
+	width: 0.4rem;
+}
+.fold_icon.up img { /*向上时需要添加up样式*/
+	transform: rotateX(180deg);
+}
+.fold_icon img {
+	width: 100%;
+}
+.cnt_pic_wp {
+	width: 100%;
+	font-size: 0;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.cnt_pic_wp>.evy_pic {
+	/*float: left;*/
+	display: inline-block;
+	width: 4.0rem;
+	height: 3.0rem;
+	border: none;
+	margin-right: 0.35rem;
+	position: relative;
+}
+.cnt_pic_wp>.evy_pic:last-child {
+	margin: 0;
+}
+.cnt_pic_wp>.evy_pic img {
+	width: 100%;
+}
+.evy_cnt_wrap {
+	border-bottom: 0.5rem solid #f5f9fb;
+	padding: 0 15px;
+ }
+.cnt_time {
+	font-size:0.65rem ;
+	color: #666;
+	/*height: 2.0rem;*/
+	/*line-height: 2rem;*/
+	height: 1.2rem;
+	line-height: 1.2rem;
+ }
+
+/*多余4张图片时显示蒙版和数量*/
+.evy_pic .img_still {
+	display: none;
+}
+.evy_pic .img_still.show_out { /*给.img_still添加show_out*/
+	display: block;
+}
+.evy_pic .img_still .masker {
+	background-color: #000;
+	opacity: 0.5;
+	z-index: 2;
+}
+.evy_pic .img_still .position {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.evy_pic .img_still .img_count {
+	font-size: 0.95rem;
+	color: #ffffff;
+	z-index: 3;
+	text-align: center;
+	line-height: 3rem;
+}
+.evy_pic div,.evy_pic a,.evy_pic img {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/**/
+.ul_img_wp {
+	float: left;
+
+}
+.ul_img_wp>.star {
+    float: left;
+   width: 0.55rem;
+    margin-left: 0.15rem;
+}
+.star_outer>span {
+	float: left;
+}
+.ul_img_wp>.star img {
+    width: 100%;
+}
+.pswp--open .img_count.position {/*打开大图时隐藏了描述*/
+	display: none;
+}

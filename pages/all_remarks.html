@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta content="telephone=no" name="format-detection"/>
+	<title>全部评论</title>
+	<link rel="stylesheet" href="../css/tg_mobile_reset.css">
+	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="../css/all_remarks.css">
+	<link rel="stylesheet" href="../css/photoswipe.css">
+	<link rel="stylesheet" href="../css/default-skin.css">
+	<link rel="stylesheet" href="../css/dropload.css">
+	
+	
+</head>
+<body>
+	<div id="pt_wp" class="h_top">
+		<div class="header color333">
+			<div class="goback"></div>
+			<div class="head_titl" id="head_title">全部点评（<span id="total_marks"></span>）</div>
+		</div>
+	</div>
+
+	<div class="star_info_wp clearfix">
+		<div class="if_recment">
+			<div class="rec_words"></div>
+			<div class="rec_scores clearfix">
+				<span class="curr_score_wp">
+					<span id="curr_score" class="green_word"></span>
+					<span class="green_word">分</span>
+				</span>
+				<span class="total_score">/5.0分</span>
+			</div>
+		</div>
+		<div class="vertical_line"></div>
+		<div class="right_stars">
+			<ul class="star_li_wp clearfix">
+				<li class="star_outer">
+					<span>行程安排:</span>
+						
+					<ul class="ul_img_wp  clearfix  " id="schedule-star">
+						<li class="star"><img src="../img/star.png"></li>
+						<li class="star"><img src="../img/star.png"></li>
+						<li class="star"><img src="../img/star.png"></li>
+						<li class="star"><img src="../img/star.png"></li>
+						<li class="star"><img src="../img/star.png"></li>
+					</ul>	
+				</li>
+				<li class="star_outer ml12">
+					<span>导游讲解:</span>
+					
+					<ul class="ul_img_wp  clearfix " id="guide-star">
+						<li class="star"><img src="../img/star.png"></li>
+						<li class="star"><img src="../img/star.png"></li>
+						<li class="star"><img src="../img/star.png"></li>
+						<li class="star"><img src="../img/star.png"></li>
+						<li class="star"><img src="../img/star.png"></li>
+					</ul>
+				</li>
+				<li class="star_outer">
+					<span>领队服务:</span>
+					
+					<ul class="ul_img_wp  clearfix " id="leader-star">
+						<li class="star"><img src="../img/star.png"></li>
+						<li class="star"><img src="../img/star.png"></li>
+						<li class="star"><img src="../img/star.png"></li>
+						<li class="star"><img src="../img/star.png"></li>
+						<li class="star"><img src="../img/star.png"></li>
+					</ul>
+				</li>
+				<li class="star_outer ml12">
+					<span>描述相符:</span>
+					
+					<ul class="ul_img_wp  clearfix " id="desc-star">
+						<li class="star"><img src="../img/star.png"></li>
+						<li class="star"><img src="../img/star.png"></li>
+						<li class="star"><img src="../img/star.png"></li>
+						<li class="star"><img src="../img/star.png"></li>
+						<li class="star"><img src="../img/star.png"></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="background_div"></div>
+	<div class="zc_tab_wp"> <!-- tab切换整体包裹 -->
+		<div class="tab_header_wp">
+			<ul class="ul_hwp clearfix">
+				<li class="thead on"><span class="inner_word">全部</span></li>
+				<li class="thead"><span class="inner_word">推荐</span></li>
+				<li class="thead"><span class="inner_word">待改善</span></li>
+				<li class="thead"><span class="inner_word">有图</span></li>
+				<li class="thead"><span class="inner_word">最新</span></li>
+			</ul>
+		</div>
+		<div class="tab_content_wp">
+			<ul class="ul_bwp" id="tab_contenet">
+				<li class="tbody show_out">
+					<!-- <div class="evy_cnt_wrap">
+						<div class="cnt_top clearfix">
+							<div class="u_name">傻驴爱旅游</div>
+							<div class="if_good">精品点评</div>
+							<div class="cnt_star_wp">
+								
+								<ul class="ul_img_wp  clearfix">
+									<li class="star"><img src="../img/star.png"></li>
+									<li class="star"><img src="../img/star.png"></li>
+									<li class="star"><img src="../img/star.png"></li>
+									<li class="star"><img src="../img/star.png"></li>
+									<li class="star"><img src="../img/star.png"></li>
+								</ul>
+								<span class="star_score">5.0分</span>		
+							</div>
+						</div>
+						<div class="cnt_cnt">
+							<div class="may_hidden hide">
+								<div class="cnt_content">
+									这里是内容，如果超出两行还有内容则overflowhidden，并且展示张开按钮，点击展开按钮显示全部，如果内容不超过两行，则不展示展开按钮！这垃圾设计，真心垃圾没脑子！
+								</div>
+							</div>	
+							<div class="fold_outer clearfix">
+								<div class="fold_wp">
+									<span class="fold_words">展开</span>
+									<span class="fold_icon">
+										<img src="../img/fold_icon.png">
+									</span>
+								</div>
+							</div>
+							
+						</div>
+						<div class="cnt_img">
+							<div class="cnt_pic_wp clearfix">
+								<figure class="evy_pic">
+									<div class="img-dv">
+										<a href="http://tupian.enterdesk.com/2015/lcx/1/26/9/9.jpg" data-size="919x517">
+											<img src="../img/one.png">
+										</a>
+									</div>
+								</figure>
+								<figure class="evy_pic">
+									<div class="img-dv">
+										<a href="http://tupian.enterdesk.com/2015/lcx/1/26/9/9.jpg" data-size="919x517">
+											<img src="../img/one.png">
+										</a>
+									</div>
+								</figure>
+								<figure class="evy_pic">
+									<div class="img-dv">
+										<a href="http://tupian.enterdesk.com/2015/lcx/1/26/9/9.jpg" data-size="919x517">
+											<img src="../img/one.png">
+										</a>
+									</div>
+								</figure>
+								<figure class="evy_pic">
+									<div class="img-dv">
+										<a href="http://tupian.enterdesk.com/2015/lcx/1/26/9/9.jpg" data-size="919x517">
+											<img src="../img/one.png">
+										</a>
+									</div>
+									
+									<div class="img_still show_out">
+										<div class="masker position"></div>
+										<div class="img_count position">+4</div>
+									</div>
+								</figure>
+							</div>
+						</div>
+						<div class="cnt_time">2016-06-10</div>
+					</div> -->
+				</li>
+				<li class="tbody"></li>
+				<li class="tbody"></li>
+				<li class="tbody"></li>
+				<li class="tbody"></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <!--<button class="pswp__button pswp__button&#45;&#45;share" title="Share"></button>-->
+                    <!-- <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> -->
+                    <!-- <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button> -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             <!--    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div> -->
+               <!--  <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button> -->
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script src="../js/lib/zepto.min.js"></script>
+	<script src="../js/method/base.js"></script>
+	<script src="../js/lib/dropload.min.js"></script>
+	<script src="../js/lib/rem.js"></script>
+	<script src='../js/lib/photoswipe.js'></script>
+	<script src='../js/lib/photoswipe-ui-default.min.js'></script>
+	<script src="../js/lib/photoSw.js"></script>
+	<script src="../js/custorm/all_remarks.js"></script>
+</body>
+</html>

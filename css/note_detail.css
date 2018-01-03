@@ -1,0 +1,358 @@
+html {
+	font-size: 1rem;
+	color: #333
+}
+
+body {
+	position: relative
+}
+
+.h_top, .h_top .header {
+	background: none
+}
+
+.fl {
+	float: left
+}
+
+.fr {
+	float: right
+}
+
+.po_re {
+	position: relative
+}
+
+.po_ab {
+	position: absolute
+}
+
+#zwrap {
+	width: 100%;
+	position: relative;
+	max-width: 18.75rem;
+	margin: 0 auto 3rem;
+	overflow: hidden
+}
+
+.header {
+	height: 2.2rem;
+	width: 100%;
+	z-index: 2
+}
+
+.goback {
+	display: inline-block;
+	width: 0.45rem;
+	height: 100%;
+	background: url(../img/go_back_white.png) no-repeat 0.75rem center;
+	background-size: 0.5rem 1rem;
+	left: 0;
+	z-index: 2
+}
+
+.bgwhite {
+	background: #FFFFFF;
+	border-bottom: 1px solid #EFEFEF
+}
+
+.bgwhite .goback {
+	background: url(../img/go_back.png) no-repeat 0.75rem  center;
+	background-size: 0.5rem 1rem
+}
+
+.h_user {
+	height: 100%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	display: none
+}
+
+.h_user .h_user_pic {
+	width: 2.15rem;
+	height: 2.15rem;
+	border-radius: 50%;
+	position: relative;
+	display: inline-block;
+	text-align: center
+}
+
+.h_user  img {
+	border-radius: 50%;
+	width: 100%;
+	width: 1.5rem;
+	height: 1.5rem;
+	vertical-align: middle
+}
+
+.h_head_nick {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 0.75rem;
+	color: #333333
+}
+
+.h_follow {
+	color: #FFFFFF;
+	font-size: 0.6rem;
+	text-align: center;
+	width: 2.8rem;
+	height: 1rem;
+	border-radius: 1rem;
+	background-color: #4acb8e;
+	text-align: center;
+	line-height: 1rem;
+	margin-top: -1.65rem;
+	display: none;
+	right: 0.75rem
+}
+
+.h_follow span {
+	font-size: 0.75rem;
+	color: #FFFFFF
+}
+
+.imp_wrap {
+}
+
+.imp_wrap .banner {
+	width: 100%;
+	height: 14.1rem;
+	overflow: hidden
+}
+
+.imp_wrap .banner img {
+	width: 100%
+}
+
+.user_box {
+	width: 17.25rem;
+	height: 2.15rem;
+	margin: 0.75rem auto;
+	position: relative
+}
+
+.user_box .user_pic {
+	width: 2.15rem;
+	height: 2.15rem;
+	border-radius: 50%;
+	position: relative
+}
+
+.user_box .user_pic>img {
+	border-radius: 50%;
+	height: 100%
+}
+
+.user_pic .head_icon {
+	width: 100%;
+	position: absolute
+}
+
+.user_pic .head_sex {
+	position: absolute;
+	right: 0;
+	bottom: 0.25rem;
+	background: #fbbc05 url(../img/male.png) no-repeat center center;
+	background-size: 0.3rem 0.5rem;
+	width: 0.75rem;
+	height: 0.75rem;
+	border-radius: 50%
+}
+
+.user_box .head_nick {
+	font-size: 0.75rem;
+	color: #333333;
+	line-height: 2.15rem;
+	margin-left: 0.75rem;
+	height: 2.15rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 11rem
+}
+
+.user_box .follow {
+	width: 2.8rem;
+	height: 1rem;
+	border-radius: 1rem;
+	background-color: #4acb8e;
+	font-size: 0.6rem;
+	text-align: center;
+	line-height: 1rem;
+	color: #FFFFFF;
+	margin-top: 0.6rem
+}
+
+.user_box .follow>span {
+	font-size: 0.75rem
+}
+
+.imp_wrap .title {
+	font-size: 0.8rem;
+	color: #333333;
+	width: 17.25rem;
+	margin: 0.75rem auto;
+	line-height: 1.2rem
+}
+
+.user_detail {
+	background: #F5F5F5;
+	width: 17.25rem;
+	margin: 0.75rem auto
+}
+
+.user_detail .user_ul {
+	padding: 0.4rem 0
+}
+
+.user_detail .user_ul>li {
+	float: left;
+	font-size: 0.6rem;
+	color: #666666;
+	line-height: 0.9rem
+}
+
+.user_detail .user_ul>li:nth-child(3n-2) {
+	min-width: 6.9rem;
+	margin-left: 0.5rem
+}
+
+.user_detail .user_ul>li:nth-child(3n-1) {
+	min-width: 4.5rem
+}
+
+.user_detail .user_ul>li:nth-child(3n) {
+	min-width: 4rem
+}
+
+.container_box {
+	width: 17.25rem;
+	margin: 0 auto
+}
+
+.scan_con {
+	font-size: 0.7rem;
+	overflow: hidden
+}
+
+.scan_con img {
+	max-width: 100% !important;
+	width: auto !important;
+	height: auto !important
+}
+
+.release_time {
+	text-align: right;
+	font-size: 0.65rem;
+	color: #999999;
+	margin-top: 0.5rem
+}
+
+.gotop {
+	width: 1.5rem;
+	height: 1.5rem;
+	background: url(../img/gotop.png) no-repeat center center;
+	border-radius: 50%;
+	background-size: 100% 100%;
+	position: fixed;
+	right: 0.75rem;
+	bottom: 4rem;
+	display: none
+}
+
+.end {
+	text-align: center;
+	width: 7.5rem;
+	margin: 0 auto
+}
+
+.end>i {
+	display: inline-block;
+	width: 2.5rem;
+	height: 1px;
+	background: #F5F5F5;
+	margin-top: 0.8rem
+}
+
+.end>span {
+	font-size: 0.7rem;
+	color: #F5F5F5;
+	margin: 0 0.5rem;
+	display: inline-block
+}
+
+.footer {
+	height: 2.4rem;
+	border-top: 1px solid #F5F5F5;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #FFFFFF
+}
+
+.footer>div {
+	width: 33.3%;
+	box-sizing: border-box;
+	line-height: 2.4rem;
+	text-align: center;
+	color: #333333;
+	font-size: 0.75rem
+}
+
+.footer>div+div {
+	border-left: 1px solid #F5F5F5
+}
+
+.thumbs_up>.icon {
+	display: inline-block;
+	background: url(../img/zan.png) no-repeat;
+	width: 0.65rem;
+	height: 0.65rem;
+	background-size: 100% 100%
+}
+
+.thumbs_up.zan>.icon {
+	display: inline-block;
+	background: url(../img/zaned.png) no-repeat;
+	width: 0.65rem;
+	height: 0.65rem;
+	background-size: 100% 100%
+}
+
+.collection>.icon {
+	display: inline-block;
+	background: url(../img/collect.png) no-repeat;
+	width: 0.8rem;
+	height: 0.7rem;
+	background-size: 100% 100%
+}
+
+.collection.collected>.icon {
+	display: inline-block;
+	background: url(../img/collected.png) no-repeat;
+	width: 0.8rem;
+	height: 0.7rem;
+	background-size: 100% 100%
+}
+
+.share>.icon {
+	display: inline-block;
+	background: url(../img/share.png) no-repeat;
+	height: 0.7rem;
+	width: 0.7rem;
+	background-size: 100% 100%
+}
+
+.footer>div>.icon {
+	margin-right: 0.25rem
+}
+
+.show {
+	display: block
+}
+body>a:last-child {
+	display: none
+}

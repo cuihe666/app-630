@@ -1,0 +1,262 @@
+html {
+	font-size: 1rem;
+	color: #666
+}
+
+.order_detail_wp {
+	margin-top: 2.2rem;
+	position:relative;
+}
+
+.border_b2 {
+	border-bottom: 0.1rem solid #efefef
+}
+
+.border_b1 {
+	border-bottom: 0.05rem solid #efefef
+}
+
+.h_top {
+	position: fixed;
+	width: 100%;
+	font-size: 0.9rem;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	background-color: #fff
+}
+
+.h_top #head_title {
+	color: #333
+}
+
+.header {
+	height: 2.2rem;
+	line-height: 2.2rem;
+	text-align: center;
+	position: relative
+}
+
+.goback {
+	width: 1.75rem;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	background: url('../img/go_back.png') no-repeat 0.75rem center;
+	background-size: 0.5rem 1rem
+}
+
+.color333 {
+	color: #333
+}
+
+.fz14 {
+	font-size: 0.7rem
+}
+
+.h43 {
+	height: 2.15rem;
+	line-height: 2.15rem;
+	border-bottom: 1px solid #efefef;
+	font-size: 0.75rem
+}
+
+.pl15 {
+	padding-left: 0.75rem
+}
+
+.bg_div {
+	background-color: #f6f9fb;
+	height: 0.5rem
+}
+
+.detail_info_wp {
+	margin-bottom: 2.5rem
+}
+
+.detail_info_wp>div {
+	padding-left: 0.75rem;
+	padding-bottom: 0.5rem
+}
+
+.detail_info_wp .evy_item {
+	height: 1.3rem;
+	line-height: 1.3rem;
+	position: relative
+}
+
+.detail_info_wp .item_name {
+	color: #333;
+	height: 1.2rem;
+	line-height: 1.2rem
+}
+
+.detail_info_wp .evy_item .goods_name {
+	position: absolute;
+	left: 5.5rem
+}
+
+.travelName_wp .goods_name {
+	position: absolute;
+	left: 5.5rem;
+	height: 1.3rem;
+	line-height: 1.3rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 12.6rem
+}
+
+.footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	background-color: #fff;
+	font-size: 0.9rem
+}
+
+.footer>div {
+	float: left
+}
+
+.price {
+	width: 42%;
+	color: #ff4c4c;
+	text-align: center
+}
+
+#submit_order {
+	background-color: #fbbc05;
+	color: #fff;
+	text-align: center;
+	width: 58%
+}
+
+.travel_infos_wp .fl_itm {
+	float: left
+}
+
+.trvl_persons {
+	margin-left: 1.25rem;
+	overflow: hidden
+}
+
+.unfold_cnt {
+	text-align: center;
+	color: #fbbc05;
+	padding: 0.25rem 0;
+	margin-left: -2rem;
+	display: none
+}
+
+.unfold_cnt.show_out {
+	display: block
+}
+
+.trvl_persons .evy_people span {
+	float: left;
+	margin-right: 1rem;
+	height: 1.2rem;
+	line-height: 1.2rem
+}
+
+.travelName_wp {
+	margin-top: 0.3rem
+}
+
+.sign_up_wp .goods_name>span {
+	margin-right: 1rem
+}
+
+#order_mx_wrap ul>li {
+	height: 1.5rem;
+	line-height: 1.5rem;
+	position: relative
+}
+
+#order_mx_wrap ul>li .mx_name {
+	float: left
+}
+
+#order_mx_wrap ul>li .mx_val {
+	position: absolute;
+	left: 4.75rem
+}
+
+#pay_pattern_wp>li {
+	position: relative;
+	height: 3rem;
+	line-height: 3rem
+}
+
+#pay_pattern_wp>li .abs_pic {
+	position: absolute;
+	width: 1.5rem;
+	height: 1.5rem;
+	font-size: 0;
+	border: none;
+	top: 50%;
+	margin-top: -0.75rem;
+	overflow: hidden
+}
+
+#pay_pattern_wp>li .abs_pic.check_pic {
+	width: 0.8rem;
+	height: 0.8rem;
+	margin-top: -0.4rem
+}
+
+.pic {
+	left: 0.75rem
+}
+
+.check_pic {
+	right: 0.75rem
+}
+
+#pay_pattern_wp>li .abs_pic img {
+	width: 100%;
+	height: 100%;
+	float: left
+}
+
+.pay_way_name {
+	padding-left: 3rem
+}
+
+.li_psn_wp {
+	max-height: 4.8rem;
+	overflow: hidden
+}
+
+.li_psn_wp.auto_height {
+	max-height: 49999.95rem
+}
+
+#child_info {
+	display: none
+}
+
+#child_info.show_out {
+	display: block
+}
+/*20171020添加支付倒计时*/
+.pay_info {
+	position: absolute;
+    height: 2.15rem;
+    line-height: 2.15rem;
+    left: 5.5rem;
+}
+.pay_info.hide_in {
+	display: none;
+}
+.pay_info.time_over {
+	color: #1dbe72;
+}
+.pay_info.time_remain {
+	color: #ff9800;
+}
+#submit_order.time_out {
+	background-color: #999;
+}

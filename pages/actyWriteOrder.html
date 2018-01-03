@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta content="telephone=no" name="format-detection"/>
+	<title>填写订单</title>
+	<link rel="stylesheet" href="../css/tg_mobile_reset.css">
+	<link rel="stylesheet" href="../css/swiper.min.css">
+	<link rel="stylesheet" href="../css/pric_calendar.css">
+	<link rel="stylesheet" href="../css/writeOrder.css">
+	
+    <script src="../js/lib/zepto.min.js"></script>
+     <script src="../js/lib/layer.js"></script>
+      <script src="../js/lib/pric_fun.js"></script>
+    <script src="../js/lib/Canlendar.js"></script>	
+	<script src="../js/method/base.js?v=20171024?v=20171024"></script>
+	<script src="../js/lib/swiper.min.js"></script>
+	<script src="../js/custorm/actyWriteOrder.js"></script>
+	<script src="../js/lib/add.js"></script>
+   
+</head>
+<body>
+	<div class="h_top">
+		<div class="header color333 border_b2">
+			<div class="goback"></div>
+			<div class="head_title" id="head_title">填写订单</div>
+		</div>
+	</div>
+	
+	<div class="pl15_wp">
+		<div class="h43 experience_day_wp pst_r">
+			<span>体验日期：</span>
+			<span id="detail_day"><!-- 2017-02-05 --></span>
+			<div class="right_arrow"></div>
+		</div>
+		<div class="stock_wp c_rn_skwp">
+			<div class="remain_stock">剩余库存<span class="rmn_sk" id="crn_sk">5</span></div>
+			<div class="h43 zc_position_r">
+				<span class="c_rn">人数：</span>
+				<span class="ml28">￥</span><span id="c_rn_pri"><!-- 780 --></span><span>/人</span>
+				<div class="add_min_wp">
+					<div class="zc_min_btn"></div>
+					<div class="zc_cr_count">1</div>
+					<div class="zc_add_btn"></div>
+				</div>
+			</div>
+
+		</div>
+		<!-- <div class="stock_wp child_skwp">
+			<div class="h43 no_bb zc_position_r">
+				<span class="c_rn">儿童：</span>
+				<span class="ml28">￥</span><span id="et_pri"></span><span>/元</span>
+				<div class="add_min_wp">
+					<div class="zc_min_btn"></div>
+					<div class="zc_cr_count">0</div>
+					<div class="zc_add_btn"></div>
+				</div>
+			</div>
+		</div> -->
+		<div class="bg_div"></div>
+		<div class="h43 contact_info">联系人信息</div>
+		<div class="h43 cntf"><span>联系人：</span><input type="text" id="contact_person" maxlength="10" placeholder="姓名"></div>
+		<div class="h43 cntf no_bb"><span>联系电话：</span><input type="text" id="cnt_tel" onkeyup="this.value=this.value.replace(/\D/g,'')"  placeholder="请填写手机号" maxlength="11"></div>
+		<div class="bg_div"></div>
+		<!-- <div class="h43 contact_info">出行人信息</div> -->
+		<!-- <div class="tvl_people_wp">
+			<div class="evy_person_wp clearfix">
+				<div class="min_btn"><img src="../img/list_jian_dis@3x.png" ></div>
+				<div class="pname_id ml12">
+					<div class="pname">张三</div>
+					<div class="s_id">130130130130130130</div>
+				</div>
+			</div>
+			<div class="add_person clearfix">
+				<div class="add_btn"><img src="../img/list_jia_nor@3x.png"></div>
+				<div class="add_word ml12">选择出行人</div>
+			</div>
+		</div> -->
+		<!-- <div class="bg_div"></div> -->
+		<div class="h43 no_bb pst_r" id="coupon">
+			优惠券
+			<div class="right_arrow"></div>
+			<div class="can_use_count"><span id="can_num"><!-- 2 --></span>张可用</div>
+			<div class="cpn_ed"><span>￥</span><span id="curr_cpn_pri">120</span></div>
+		</div>
+		<div class="bg_div"></div>
+		
+	</div>
+	<div class="agreement_wp">
+		<span id="agree_pic" class="agr_before"></span>
+		<span><span id="agree_word">我已阅读并同意</span><a href="xieyi.html"><span id="tango_pact">《棠果预订条款》</span></a></span>
+	</div>
+	<div class="footer">
+		<div class="price"><span>￥</span><span id="zc_price"><!-- 112 --></span></div>
+		<div id="submit_order">提交订单</div>
+	</div>
+	<div class="start_day_wp">
+	<!-- <div class="start_day_wp nav_child  show_out"> -->
+		<div id="cal">
+			<div class="h_top" id="calendar_top">
+				<div class="ex_th">
+					<ul class="clearfix">
+						<li>日</li>
+						<li>一</li>
+						<li>二</li>
+						<li>三</li>
+						<li>四</li>
+						<li>五</li>
+						<li>六</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="calendar">
+				<div class="outer clearfix" id="calendarcontainer"></div>
+			</div>
+			<div class="pf_btn calendar_btn">确认</div>
+			<div class="cld_cancel_btn calendar_btn">取消</div>
+		</div>
+	</div>
+	<div id="zc_remind_cnt"></div>
+		<div class="discount_wp">
+			<div class="use_head">
+				<div class="use_cancel use_postion">取消</div>
+				<div class="use_tip">使用优惠券</div>
+				<div class="use_sure use_postion">确定</div>
+			</div>
+			<div class="no_counp">暂无可用优惠券</div>
+			<div class="counp_list_wp"></div>
+			<!-- <div class="evy_privilege ">
+				<div class="coupon_name">满减券</div>
+				<div class="coupon_name_value"><span class="rmb_sts">￥</span><span class="rmb_cnt">12222</span></div>
+				<div class="cpn_name_detail">具体名字我靠！到底是啥</div>
+				<div class="least_info">多少元可用或者什么情况下可用</div>
+				<div class="time_limit_wp">
+					<span>有效期：</span>
+					<span class="start_time">2017/01/01</span>
+					<span class="start_time">-</span>
+					<span class="start_time">2017/03/01</span>
+				</div>
+				<div class="select_or_not"><img src="../img/list_youhuiquan_nor@3x.png"></div>
+			</div> -->
+			<div class="use_intru">优惠券使用说明</div>
+		</div>
+	<div class="yh_use_intru">
+		<div class="h_top">
+			<div class="header color333 border_b2">
+				<div class="child_goback"></div>
+				<div class="head_title">优惠券使用说明</div>
+			</div>
+		</div>
+
+		<div class="p_wp">
+			<p>1.住宿优惠券仅限于预定棠果客房使用，旅游类住宿券仅限于购买棠果旅游类产品使用，通用券全部商品可用。</p>
+			<p>2.一张券限使用一次，一个订单可使用一张优惠券，不可以累积和叠加使用。</p>
+			<p>3.已付款并使用优惠券的订单取消后，按照实际缴费金额退款，优惠券可返回再次使用。</p>
+		</div>
+	</div>
+	<div class="masker"></div>
+	<script src="../js/lib/rem.js"></script>
+	<!-- <script src="../js/method/solveIosHead.js"></script> -->
+	
+</body>
+</html>

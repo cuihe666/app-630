@@ -1,0 +1,80 @@
+<<<<<<< HEAD
+html{
+	background: #f4f6f8;
+}
+.h_top{
+	display: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 5;
+}
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+header{
+	height: 2.2rem;
+	line-height: 2.2rem;
+	width: 100%;
+	background: white;
+	font-size: 0.9rem;
+}
+header .goBack{
+	display: inline-block;
+	width: 0.7rem;
+	height: 1rem;
+	float: left;
+	background:url('../img/go_back.png') no-repeat left top;
+	-webkit-background-size: 0.45rem 0.85rem;
+	background-size: 0.45rem 0.85rem;
+	margin: 0.675rem 0rem 0rem 0.75rem;
+}
+header .tit{
+	margin-left: 5.675rem;
+}
+.warning{
+	width: 100%;
+	font-size: 0.6rem;
+	color: #fbbc05;
+	line-height: 0.9rem;
+	padding: 0.5rem 1rem;
+}
+.message{
+	width: 100%;
+	background: white;
+}
+.message ul{
+	font-size: 0.7rem;
+	color: #333;
+	width: 100%;
+	padding: 0 0.7rem;
+}
+.message li{
+	height: 2.2rem;
+	border-bottom: 0.1rem solid #efefef;
+	line-height: 2.2rem;
+	margin: 0 auto;
+}
+.message li .span1{
+	display: inline-block;
+	width: 3.3rem;
+	margin-right: 1.7rem;
+}
+button{
+	width: 17.5rem;
+	display: block;
+	background: #1dbe72;
+	color: white;
+	font-size: 0.9rem;
+	line-height: 2.3rem;
+	text-align: center;
+	margin: 0rem auto;
+	margin-top: 3.8rem;
+}
+=======
+html{background:#f4f6f8}.h_top{position:fixed;left:0;top:0;width:100%;z-index:5;background-color:#fff}.clear:after{content:".";display:block;height:0;clear:both;visibility:hidden}header{height:2.2rem;line-height:2.2rem;width:100%;background:white;font-size:0.9rem}header .goBack{width:0.7rem;height:100%;float:left;background:url('../img/go_back.png') no-repeat left top;background-size:0.5rem 1rem;margin:0.675rem 0rem 0rem 0.75rem}header .tit{text-align:center}.warning{width:100%;font-size:0.6rem;color:#fbbc05;line-height:0.9rem;padding:0.5rem 1rem;margin-top:2.2rem;background-color:#fff}.message{width:100%;background:white}.message ul{font-size:0.7rem;color:#333;width:100%;padding:0 0.7rem}.message li{height:2.2rem;border-bottom:0.1rem solid #efefef;line-height:2.2rem;margin:0 auto}.message li .span1{display:inline-block;width:3.3rem;margin-right:1.7rem}button{width:17.5rem;display:block;background:#1dbe72;color:white;font-size:0.9rem;line-height:2.3rem;text-align:center;margin:0rem auto;margin-top:3.8rem}
+>>>>>>> bccbc961c190f864e53c0603e124035401db8cfd

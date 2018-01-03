@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta content="telephone=no" name="format-detection"/>
+	<title>主题详情</title>
+	<link rel="stylesheet" href="../css/tg_mobile_reset.css">
+	<link rel="stylesheet" href="../css/theme_detail.css?v=20170612">
+	<link rel="stylesheet" href="../css/swiper.min.css">
+	
+    <script src="../js/lib/zepto.min.js"></script>
+	<script src="../js/method/base.js?v=20171024?v=20171024"></script>
+	<script src="../js/lib/swiper.min.js"></script>
+	<script src="../js/custorm/theme_detail.js"></script>
+	<!-- <script src="../js/method/solveIosHead.js"></script> -->
+</head>
+<body>
+	<!-- <div id="ios_show"></div> -->
+	<div id="pt_wp" class="h_top">
+		<div class="header color333">
+			<div class="goback"></div>
+			<div class="head_title" id="head_title">主题线路</div>
+			<div class="head_right">
+				<div class="theme_share"></div>
+				<div class="theme_collect"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="thm_detail">
+		
+		<div id="zc_wrap">
+			<div class="details_show containar01 zc_detail_lb" style="overflow: hidden;width:100%;">
+				<div class="fangyuan_exhibition swiper-wrapper" id="wraapper">
+					<!-- <div class="swiper-slide">
+						<img src="../img/test.png">
+					</div> -->
+					<!-- <div class="swiper-slide posit">
+						<img src="">
+					</div> -->
+				</div>
+			</div>
+			<div class="zc_masker"></div>
+		</div>
+		
+		<div class="top_head_wp brbm10 pl15">
+			<div class="sm_tl color333"><!-- 去中国最美的公路——G318 --></div>
+			<div class="tag_wp clearfix">
+				<span class="detail_tag"><span id="start_city"><!-- 成都 --></span>出发</span>
+				<!-- <span class="detail_tag">一二三四</span>
+				<span class="detail_tag">一二三四</span>
+				<span class="detail_tag">一二三四</span>
+				<span class="detail_tag">一二三四</span> -->
+			</div>
+		</div>
+		<div class="user_wp brbm10 clearfix pl15">
+			<div class="head_pic">
+				<div class="head_img"></div>
+				<div class="gender"></div>
+
+			</div>
+			<div class="head_nick color333"><!-- 昵称 --></div>
+			<div class="zc_flow">+关注</div>
+		</div>
+		<div class="action_light_wp brbm10 pl15">
+			<div class="head_tip color333 ">活动亮点</div>
+			<div class="content"><!-- 活动亮点内容活动亮点内容 --></div>
+		</div>
+		<div class="comment_wp brbm10 pl15">
+			<div class="comment_score_wp clearfix">  <!-- 星级评分 -->
+				<div class="score_left"> <!-- 左侧文字 -->
+					<span id="curr_score">4.9分</span>
+					<span>/</span>
+					<span class="total_score">5分</span>
+					<span>(共</span>
+					<span id="total_people">200</span>
+					<span>人评论)</span>
+				</div>
+				<div class="score_right clearfix"><!-- 右侧星星 -->
+					<ul class="ul_img_wp  clearfix child_fleft">
+						<li class="star"><img src=""></li>
+						<li class="star"><img src=""></li>
+						<li class="star"><img src=""></li>
+						<li class="star"><img src=""></li>
+						<li class="star"><img src=""></li>
+					</ul>
+					<div class="grade child_fleft"><span id="grade">5</span>分</div>
+				</div>
+			</div>
+
+			<div class="one_remark_wp"> <!-- rank第一的点评 -->
+				<div class="remark_top clearfix">
+					<div class="u_name"><!-- 用户名 --></div>
+					<div class="if_good">精品点评</div>
+					<div class="u_date"><!-- 2016-06-10 --></div>
+				</div>
+				<div class="remark_content"></div>
+				<div class="look_allmasrks">查看全部点评</div>
+			</div>
+		</div>
+		<div class="leader_wp pl15 brbm10">
+			<div class="head_tip color333">我是领队</div>
+			<div class="content"><!-- 我是领队我是领队我是领队我是领队我是领队我是领队我是领队 --></div>
+		</div>
+		<ul class="nav_bar_wp clearfix" id="nav_bar_wp">
+			<li class="tmp_nav xcjj ">行程简介</li>
+			<li class="tmp_nav fysm">费用说明</li>
+			<li class="tmp_nav ydxz">预订须知</li>
+		</ul>
+		<div class="route_intru_wp pl15 brbm10"> <!-- 行程各种 -->
+			<div class="head_tip color333">行程简介</div>
+			<div class="content route_cnt_wp">
+				<!-- <div class="evy_day">
+					<div class="evy_day_tite">这是当天的标题</div>
+					<div class="evy_day_introduce">这里是当天的行程简介</div>
+					<div class="pic_wp">
+						<div class="evy_pic">
+							<div class="pic"><img src=""></div>
+							<div class="pic_intru">图片介绍</div>
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</div>
+		<div class="fee_intru_wp pl15 brbm10">
+			<div class="head_tip color333">费用说明</div>
+			<div class="fee_in_wp">
+				<div class="inner_title color333">费用包含</div>
+				<div class="inner_fee_cnt"><!-- 费用包含的具体内容 --></div>
+			</div>
+			<div class="fee_out_wp">
+				<div class="inner_title color333">费用不含</div>
+				<div class="outer_fee_cnt"><!-- 费用不包含的具体内容 --></div>
+			</div>
+		</div>
+		<div class="book_intru_wp pl15 brbm10">
+			<div class="head_tip color333">预订须知</div>
+			<div class="content book_cnt"><!-- 预订须知的内容 --></div>
+		</div>
+		<div class="td_zc_wp pl15 brbm10">
+			<div class="head_tip color333">退订政策</div>
+			<div class="content td_cnt">最晚提前<span id="refundType"></span>天退款</div>
+		</div>
+		<div class="td_intru_wp pl15 brbm10">
+			<div class="head_tip color333">退订说明</div>
+			<div class="content td_intru_cnt"><!-- 退订说明的内容 --></div>
+		</div>
+
+
+
+	</div>
+	<div class="detail_footer">
+		<div class="price"><span>￥</span><span id="lowest_price"></span><span id="pri_word">起</span></div>
+		<div class="concat_fan">联系达人</div>
+		<div class="right_sign_up">立即报名</div>
+	</div>
+
+    
+	<script src="../js/lib/rem.js"></script>
+
+	<!-- <script src="../js/method/solveIosHead.js"></script> -->	
+</body>
+</html>

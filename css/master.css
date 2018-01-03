@@ -1,0 +1,428 @@
+html {
+	font-size: 1rem;
+	color: #333
+}
+
+body {
+	background: #f6f9fb
+}
+
+.h_top {
+	position: fixed;
+	width: 100%;
+	z-index: 2
+}
+
+.padtop10 {
+	padding-top: 0.5rem
+}
+
+.marbom10 {
+	margin-bottom: 0.5rem
+}
+
+.bgwhite {
+	background: #FFFFFF
+}
+
+.mwrap {
+	width: 17.25rem;
+	margin: 0 auto
+}
+
+a {
+	text-decoration: none
+}
+
+body {
+	position: relative
+}
+
+.fl {
+	float: left
+}
+
+.fr {
+	float: right
+}
+
+.po_re {
+	position: relative
+}
+
+.po_ab {
+	position: absolute
+}
+
+#zwrap {
+	width: 100%;
+	position: relative;
+	max-width: 18.75rem;
+	margin: 0 auto;
+	overflow: hidden
+}
+
+.header {
+	height: 2.2rem;
+	width: 100%;
+	z-index: 2
+}
+
+.goback {
+	display: inline-block;
+	width: 1.75rem;
+	height: 100%;
+	background: url(../img/go_back_white.png) no-repeat 0.75rem  center;
+	background-size: 0.5rem 1rem;
+	z-index: 2
+}
+
+.bgwhite {
+	background: #FFFFFF
+}
+
+.bgwhite .goback {
+	background: url(../img/go_back.png) no-repeat center;
+	background-size: 0.5rem 1rem
+}
+
+.h_head_nick {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 0.9rem;
+	color: #fff;
+	line-height: 2.2rem
+}
+
+.head_pic {
+	margin-top: 4.75rem
+}
+
+.hebox {
+	width: 4.3rem;
+	height: 4.3rem;
+	display: block;
+	margin: 0 auto;
+	position: relative
+}
+
+.head_img {
+	width: 4.3rem;
+	height: 4.3rem;
+	display: block;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 50%;
+	padding: 0.15rem;
+	overflow: hidden
+}
+
+.head_img img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%
+}
+
+.hebox span.man {
+	display: block;
+	position: absolute;
+	width: 0.75rem;
+	height: 0.75rem;
+	border-radius: 50%;
+	bottom: 0.25rem;
+	right: 0.25rem;
+	background: url('../img/male.png') no-repeat center;
+	background-color: #fbbc05;
+	-webkit-background-size: 0.3rem 0.5rem;
+	background-size: 0.3rem 0.5rem
+}
+
+.hebox span.women {
+	display: block;
+	position: absolute;
+	width: 0.75rem;
+	height: 0.75rem;
+	border-radius: 50%;
+	bottom: 0.25rem;
+	right: 0.25rem;
+	background: url('../img/famale.png') no-repeat center;
+	background-color: #fbbc05;
+	-webkit-background-size: 0.3rem 0.5rem;
+	background-size: 0.3rem 0.5rem
+}
+
+.master_nick {
+	color: #FFFFFF;
+	font-size: 0.7rem;
+	text-align: center;
+	margin-top: 0.25rem;
+	line-height: 1rem
+}
+
+.master_des {
+	font-size: 0.6rem;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0.25rem 0
+}
+
+.master_follow,.secret {
+	width: 3.1rem;
+	height: 0.8rem;
+	background: #1dbe72;
+	opacity: 0.8;
+	font-size: 0.6rem;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 0.8rem;
+	margin: 0 auto;
+	border-radius: 0.5rem;
+	box-sizing: content-box;
+	border:2px solid #fff;
+	display: inline-block;
+}
+.secret {
+	margin-left:0.65rem ;
+	background-color: transparent;
+}
+
+.master_follow>span {
+	height: 100%;
+	line-height: 1rem
+}
+
+.master_follow .add {
+	font-size: 0.75rem
+}
+
+.auth {
+	width: 17.25rem;
+	margin: 0 auto
+}
+
+.auth ul li {
+	float: left;
+	background: url(../img/auth.png) no-repeat left center;
+	font-size: 0.55rem;
+	color: #333333;
+	background-size: 0.625rem 0.625rem;
+	padding-left: 0.8rem;
+	margin-right: 0.65rem;
+	display: none
+}
+
+.mas_detail {
+	font-size: 0.65rem;
+	color: #555555;
+	line-height: 1.15rem;
+	margin-top: 0.5rem
+}
+
+.padtop18 {
+	padding-top: 0.9rem
+}
+
+.mas_title {
+}
+
+.mas_title>h2 {
+	font-weight: normal;
+	font-size: 0.85rem;
+	color: #000000;
+	margin-bottom: 0.75rem
+}
+
+.mas_title>.more {
+	color: #999999;
+	line-height: 0.85rem;
+	padding: 0 0.25rem;
+	display: none;
+	background: url("../img/daren_gt.png") no-repeat center center;
+	display: inline-block;
+	width: 0.35rem;
+	height: 0.6rem;
+	background-size: contain;
+	margin-top: 0.2rem
+}
+
+.dt_swiper {
+	height: 8.65rem;
+	width: 17.25rem;
+	margin: 0 auto
+}
+
+.swiper-container {
+	width: 100%
+}
+
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 12.75rem;
+	height: 8.65rem;
+	overflow: hidden;
+	position: relative
+}
+
+.swiper-slide>img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1
+}
+
+.swiper-slide>p {
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #FFFFFF;
+	position: absolute;
+	z-index: 2;
+	font-size: 0.65rem;
+	line-height: 0.9rem;
+	padding: 0.4rem;
+	width: 100%
+}
+
+.evy_thm_wp {
+	width: 100%;
+	padding-bottom: 0.75rem;
+	position: relative;
+	background-color: #fff
+}
+
+.evy_thm_wp>div {
+	float: left
+}
+
+.pic_wp {
+	width: 7.25rem;
+	height: 5.45rem;
+	border: none;
+	font-size: 0
+}
+
+.pic_wp img {
+	width: 100%;
+	height: 100%
+}
+
+.itm_scan_wp {
+	width: 9rem;
+	margin-left: 0.75rem
+}
+
+.itm_title {
+	font-size: 0.8rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-height: 1.3rem;
+	-webkit-box-orient: vertical;
+	height: 2.6rem;
+	margin-top: -0.15rem
+}
+
+.itm_thms {
+	font-size: 0.65rem;
+	color: #999;
+	height: 1.8rem;
+	margin-top: 0.15rem
+}
+
+.itm_thms .evy_thm {
+	float: left;
+	margin-right: 0.2rem
+}
+
+.itm_price {
+	font-size: 0.75rem;
+	color: #ff4c4c
+}
+
+.itm_price .price_word {
+	font-size: 0.55rem;
+	margin-left: 0.1rem
+}
+
+.start_place {
+	color: #666;
+	font-size: 0.65rem;
+	margin-top: 0.1rem
+}
+
+.mas_im_item {
+	width: 100%;
+	padding-bottom: 0.65rem
+}
+
+.mas_im_pic {
+	width: 100%;
+	height: 12.95rem;
+	overflow: hidden
+}
+
+.mas_im_title {
+	font-size: 0.8rem;
+	color: #333333;
+	margin: 0.65rem 0 0.4rem
+}
+
+.mas_im_des {
+	font-size: 0.65rem;
+	color: #666;
+	line-height: 1.1rem
+}
+
+.mas_im_pic>img {
+	width: 100%
+}
+
+.mas_im_status {
+	width: 100%;
+	text-align: right;
+	margin-top: -0.2rem
+}
+
+.mas_im_status>span {
+	display: inline-block;
+	font-size: 0.55rem;
+	color: #555555
+}
+
+.mas_im_status>.see {
+	background: url(../img/see.png) no-repeat 0 0.15rem;
+	background-size: 0.8rem 0.55rem;
+	text-indent: 1rem
+}
+
+.mas_im_status>.zan {
+	margin-left: 0.75rem;
+	background: url(../img/zan.png) no-repeat 0 0;
+	background-size: 0.65rem 0.65rem;
+	text-indent: 1rem
+}
+
+.imp_wrap {
+}
+
+.imp_wrap .banner {
+	width: 100%;
+	height: 14.05rem;
+	overflow: hidden;
+	background: url(../img/master_bg.png) no-repeat;
+	background-size: cover
+}
+
+.imp_wrap .banner {
+	width: 100%
+}
+.zccreat_wp {
+	width: 10rem;
+	height: 1.3rem;
+	line-height: 1.3rem;
+	margin: 0 auto;
+	border: none;
+	text-align: center;
+}
